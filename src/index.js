@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import App from './App';
+import {evaluate} from 'mathjs';
+
+console.log('index.js', Date.now());
 
 ReactDOM.render(
   <React.StrictMode>
